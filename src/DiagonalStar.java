@@ -16,8 +16,7 @@ public class DiagonalStar {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
-                }
-                if (x == number) {
+                } if (x == number) {
                     System.out.println();
                 }
             }
