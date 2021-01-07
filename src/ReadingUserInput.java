@@ -11,13 +11,13 @@ public class ReadingUserInput {
             boolean checker = scanner.hasNextInt();
                 if (checker) {
                     int userInput = scanner.nextInt();
-                    String line = scanner.nextLine();
                     sum+=userInput;
                     turnCounter++;
 
                 } else {
                     System.out.println("Invalid Number");
                 }
+            scanner.nextLine();
         }
         scanner.close();
         System.out.println("The total sum is " + sum);

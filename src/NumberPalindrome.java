@@ -9,7 +9,7 @@ public class NumberPalindrome {
 
         int originalNumber = number;
 
-        while (number > 0) {
+        while (number != 0) {
             n += Integer.toString(number % 10);
             number /= 10;
         }
